@@ -2,7 +2,7 @@ function rotateArr(sortedArr, shiftBy) {
   var start = 0;
   // Shifting The Array Until start Is The shiftBy Value
   while(start < shiftBy) {
-    // poping The Last Value Adding It To Front
+    // popping The Last Value Adding It To Front
     sortedArr.unshift(sortedArr.pop());
     start++;
     }

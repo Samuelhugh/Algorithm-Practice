@@ -1,7 +1,7 @@
 function skylineHeights(arr) {
   // Iterate Through The Array
   for(var i = 0; i < arr.length; i++) {
-    // Find The Buidings Above Street Level
+    // Find The Buildings Above Street Level
     if(arr[i] >= 0) {
       // if Each index Is Bigger Than The Next Then Skip It
       if(arr[i] > arr[i + 1]) {
@@ -19,6 +19,6 @@ function skylineHeights(arr) {
     }
     return arr;
   }
-    
+
 var x = skylineHeights([1, -1, 7, 3]);
 console.log("result: " + x);

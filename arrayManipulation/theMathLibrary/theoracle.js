@@ -1,4 +1,5 @@
-var lifesAnswers = [
+function theOracle(str) {
+  var lifesAnswers = [
     "It is certain.",
     "It is decidedly so.",
     "Without a doubt.",
@@ -19,14 +20,15 @@ var lifesAnswers = [
     "My sources say no.",
     "Outlook not so good.",
     "Very doubtful."
-];
-function d6(arr) {
-  for(var i = 0; i < arr.length; i++) {
+  ];
+  for(var i = 0; i < lifesAnswers.length; i++) {
+    console.log(lifesAnswers[i])
     var roll = Math.floor(Math.random() * 19)+ 1;
     if(roll == i) {
-      console.log(arr[i]);
+      // console.log(arr[i]);
+      return lifesAnswers[i];
       }
     }
   }
-    
-  d6(lifesAnswers);
+
+  console.log(theOracle("Will I Find True Love?"));
