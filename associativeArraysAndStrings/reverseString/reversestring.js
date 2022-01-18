@@ -1,10 +1,10 @@
 const string = "creature";
 function reverseString(str) {
-  let newstr = "";
+  let newStr = "";
   for(let i = str.length - 1; i >= 0; i--) {
-    newstr += str[i];
+    newStr += str[i];
     }
-  return newstr;
+  return newStr;
   }
-  
+
 console.log(reverseString(string));

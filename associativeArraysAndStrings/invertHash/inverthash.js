@@ -7,11 +7,11 @@ function invertHash(assocArr) {
     let temp1 = key;
     // Deleting The key:value pairs 
     delete assocArr[key];
-    // inverting The key:value pairs
+    // inverting/swapping The key:value pairs
     key = temp;
     assocArr[key] = temp1;
     }
   return assocArr;
   }
-  
+
 console.log(invertHash(hash));
