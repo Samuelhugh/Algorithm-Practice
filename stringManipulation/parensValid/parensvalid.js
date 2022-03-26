@@ -19,7 +19,7 @@ function parensValid(str) {
       // if it does then I want to pop it off my Array
       arr.pop();
       }
-    // I am checking for a closed parenthese if there is no matching open parentheses in the Array
+    // I am checking for a closed parentheses if there is no matching open parentheses in the Array
     else if(str[i] == ")") {
       // if it finds a closed parentheses but no matching open parentheses then return false
       return false;
