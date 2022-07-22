@@ -1,4 +1,2 @@
-# Algorithm-Practice
-Practicing algorithms in JavaScript without using Built-in methods.
-Practicing algorithmic concepts, such as Pseudo coding, TDD, Array manipulation, Associative array manipulation, Binary search, and Regular expression to name a few.
-Also practicing JavaScript algorithms using some of its Built-in methods.
+Practicing algorithms from my Bootcamp's Algorithm Book in JavaScript with little to no use of Built-in methods.
+Practicing algorithmic concepts, such as Pseudo coding, DRY (Don't Repeat Yourself), TDD (Test Driven Development), Array manipulation, Associative Array and String manipulation, Binary search, and Regular expression to name a few.
